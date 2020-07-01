@@ -12,6 +12,9 @@ Doc Links: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Cl
 * How to use ajax request:
 Doc Links: <a href="https://developer.mozilla.org/fr/docs/Web/Guide/AJAX"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1280px-MDN_Web_Docs.svg.png" alt="" width="100px;"></a>
 <br>
+<li>
+<li>
+ 
 - XMLHttpRequest()
 - Get
 - Handle the answer of the server
