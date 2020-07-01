@@ -18,8 +18,8 @@ h1{
 #flag-container {
     size: auto;
     /* height: 252px; */
-    background-color: #fff;
-    border: 1px solid #333;
+    /* background-color: #fff; */
+    /* border: 1px solid #333; */
 }
 
 #flag-container img {
