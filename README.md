@@ -8,7 +8,7 @@ After chosing a country in the list all the information of the country will dyna
 
 <img src="https://user-images.githubusercontent.com/56839789/86289352-d7c5e200-bbeb-11ea-8d89-bb45ba5ba062.gif" alt="" width="50%;">
 
-# What i learn, pratice: AJAX , API
+# AJAX , API
 
 
 * What is an API ? :
@@ -19,6 +19,7 @@ Doc Links: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Cl
 Doc Links: <a href="https://developer.mozilla.org/fr/docs/Web/Guide/AJAX"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1280px-MDN_Web_Docs.svg.png" alt="" width="100px;"></a>
 <br>
 
+# What i learn, pratice: 
 <ul>
  <li>XMLHttpRequest()
  <li>Handle the answer of the server
