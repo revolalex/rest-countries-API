@@ -7,7 +7,7 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Technologies](#technologies)
-* [Code example](#Code Example)
+
 * [Contact](#contact)
 * [Website](#website)
 
@@ -17,7 +17,7 @@ So i made this project.
 After chosing a country in the list all the information of the country will dynamicly change.
 
 ## Screenshots
-![Example screenshot]
+
 <img src="https://user-images.githubusercontent.com/56839789/86288514-53bf2a80-bbea-11ea-8f25-9216f06266ef.png" alt="" width="50%;">
 <img src="https://user-images.githubusercontent.com/56839789/86289352-d7c5e200-bbeb-11ea-8d89-bb45ba5ba062.gif" alt="" width="50%;">
 
