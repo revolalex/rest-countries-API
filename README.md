@@ -1,8 +1,6 @@
 # rest-countries-API
 
 
-<img src="https://user-images.githubusercontent.com/56839789/86340641-84887980-bc55-11ea-96be-f4254b339f49.jpg" alt="" width="50%;">
-
 This website will show you a lot of information about many countries.
 
 <img src="https://user-images.githubusercontent.com/56839789/86288514-53bf2a80-bbea-11ea-8f25-9216f06266ef.png" alt="" width="50%;">
