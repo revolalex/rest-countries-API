@@ -16,8 +16,10 @@ var arrayGlobal = [];
 function ajaxGet(url, callback) {
   //  HTTP requets
   var req = new XMLHttpRequest();
+  // open the request and past HTTP method name and the resource as parameters
   req.open("GET", url);
   req.addEventListener("load", function () {
+    // if request succes
     if (req.status >= 200 && req.status < 400) {
       // Appelle la fonction callback en lui passant la réponse de la requête
       callback(req.responseText);
@@ -25,6 +27,7 @@ function ajaxGet(url, callback) {
       console.error(req.status + " " + req.statusText + " " + url);
     }
   });
+  // listen for error
   req.addEventListener("error", function () {
     console.error("Erreur réseau avec l'URL " + url);
   });
