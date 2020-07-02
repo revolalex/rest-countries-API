@@ -1,26 +1,60 @@
-# rest-countries-API
 
+# Project Name : rest-countries-API
+> This website will show you a lot of information about many countries.
 
-This website will show you a lot of information about many countries.
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Technologies](#technologies)
+* [Code example](#Code Example)
+* [Contact](#contact)
+* [Website](#website)
 
-<img src="https://user-images.githubusercontent.com/56839789/86288514-53bf2a80-bbea-11ea-8f25-9216f06266ef.png" alt="" width="50%;">
-
+## General info
+My teacher ask me to use rescontries API using ajax request.
+So i made this project.
 After chosing a country in the list all the information of the country will dynamicly change.
 
+## Screenshots
+![Example screenshot]
+<img src="https://user-images.githubusercontent.com/56839789/86288514-53bf2a80-bbea-11ea-8f25-9216f06266ef.png" alt="" width="50%;">
 <img src="https://user-images.githubusercontent.com/56839789/86289352-d7c5e200-bbeb-11ea-8d89-bb45ba5ba062.gif" alt="" width="50%;">
 
-# AJAX , API
+
+## Technologies
+* HTML
+* CSS
+* JavaScript
+* restcountries API
+* Ajax
+* Json
 
 
-* What is an API ? :
-Doc Links: <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1280px-MDN_Web_Docs.svg.png" alt="" width="100px;"></a>
+## Code Example
+Show examples of usage:
+`function ajaxGet(url, callback) {
+  //  HTTP requets
+  var req = new XMLHttpRequest();
+  // open the request and past HTTP method name and the resource as parameters
+  req.open("GET", url);
+  req.addEventListener("load", function () {
+    // if request succes
+    if (req.status >= 200 && req.status < 400) {
+      // callback
+      callback(req.responseText);
+    } else {
+      console.error(req.status + " " + req.statusText + " " + url);
+    }
+  });
+  // listen for error
+  req.addEventListener("error", function () {
+    console.error("Erreur réseau avec l'URL " + url);
+  });
+  req.send(null);
+}`
 
-
-* How to use ajax request:
-Doc Links: <a href="https://developer.mozilla.org/fr/docs/Web/Guide/AJAX"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/MDN_Web_Docs.svg/1280px-MDN_Web_Docs.svg.png" alt="" width="100px;"></a>
-<br>
-
-# What i learn, pratice: 
+## What i learn, pratice: 
 <ul>
  <li>XMLHttpRequest()
  <li>Handle the answer of the server
@@ -28,5 +62,15 @@ Doc Links: <a href="https://developer.mozilla.org/fr/docs/Web/Guide/AJAX"><img s
  <li>JSON
 </ul>
  
+ 
+## Status
+Project is:  _finished_
 
-Website link: https://my-countries-api.netlify.app
+
+## Contact
+Created by Alexandre Rodriguez
+revolalex@gmail.com
+
+
+## Website
+link: https://my-countries-api.netlify.app
