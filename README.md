@@ -1,3 +1,4 @@
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2Frest-countries-API" alt="Hits">.
 
 # Project Name : rest-countries-API
 > This website will show you a lot of information about many countries.
