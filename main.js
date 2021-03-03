@@ -59,6 +59,8 @@ ajaxGet("https://restcountries.eu/rest/v2/all", function (response) {
 
 
 function selectChange() {
+  var imageFlag = document.getElementById("flagImage");
+  imageFlag.style.diplay = "content";   
   var selectCountry = document.getElementById("countries").value;
   // finc the input in arrayGlobal
   const found = arrayGlobal.find(element => element.name == selectCountry);
